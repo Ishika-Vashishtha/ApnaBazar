@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.head2{
+    background: #00000024;
+    background: none;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    margin-left: 360px;
+    margin-top: 2rem;
+}
+.head2 p{
+    margin-left: 1rem;
+    color: transparent;
+}
+.head2 a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.head2 a:hover{
+ border-radius: 20px;
+ /* background: gray; */
+ color: rgba(24, 23, 23, 0.678);
+ /* text-shadow: #000; */
+}
+.head1{
+    margin-left: 528px;
+}
+.container .box{
+    margin-left: -5rem;
+}
+.container{
+    display: flex;
+}
+.para .p1{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 4rem;
+}
+.para .p2{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-left: 50px;
+    margin-top: 1rem;
+}
+.para .p3{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 1rem;
+}
+.para .p4{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 3rem;
+    letter-spacing: 3px;
+}
+.para .img1{
+    margin-left: 50px;
+    margin-top: 2rem;
+}
+img:hover{
+    cursor: pointer;
+    overflow: hidden;
+}
+.para .p5{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 4rem;
+    letter-spacing: 1px;
+}
+.para .p6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 4rem;
+    width: 320px;
+}
+.para .p6 button{
+    border: 1px solid rgb(0, 0, 0);
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.para .p6 button:hover{
+    cursor: pointer;
+    color: grey;
+}
+.para .btn1{
+    cursor: pointer;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 4rem;
+    height: 25px;
+    background-color: burlywood;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+    color: #000;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.para .p7{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 4rem;
+}
+
+.footer{
+    height: 700px;
+    background: rgba(192, 166, 64, 0.137);
+    background: rgb(0 0 0 / 3%);
+    margin-top: 8rem;
+    font-family: monospace;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+}
+ .foot1 h4{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Assistant';
+}
+.foot1 a{
+    height: 29px;
+    font-family: 'Assistant';
+    color: #000000;
+    font-size: 14px;
+} 
+.foot1 a:hover{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    cursor: pointer; 
+}
+.foot2{
+    display: flex;
+    flex-direction: column;
+}
+ .foot2 h4{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Assistant';
+}
+.foot2 a{
+    height: 29px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Assistant';
+} 
+.foot2 a:hover{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    cursor: pointer; 
+}
+.foot3{
+    display: flex;
+    flex-direction: column;
+}
+ .foot3 h4{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Assistant';
+}
+.foot3 a{
+    height: 29px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Assistant';
+} 
+.foot3 a:hover{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    cursor: pointer; 
+}
+.foot4{
+    display: flex;
+    flex-direction: column;
+}
+ .foot4 h4{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Assistant';
+}
+.foot4 a{
+    height: 29px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Assistant';
+} 
+.foot4 a:hover{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    cursor: pointer; 
+}
+.foot5{
+    font-family: 'Assistant';
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem; 
+}
+.foot6{
+    font-family: 'Assistant';
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+  
+.box2 img{
+    cursor: pointer;
+}
+
+
